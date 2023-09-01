@@ -1,6 +1,7 @@
 import { Field, ObjectType } from '@nestjs/graphql';
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import * as mongoose from 'mongoose';
+import { Comment } from 'src/comment/schema/comment.schema';
 import { User } from 'src/user/schemas/user.schema';
 
 @Schema()
